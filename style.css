@@ -1,6 +1,13 @@
 .heading{
-    font-size: 24px;
+    font-size: 26px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
-    text-shadow: 0 0 3px orange, 0 0 5px black;
+    text-shadow: 0 0 3px yellow, 0 0 5px black;
+}
+
+.list .item{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 10px; /* Spaziatura uniforme tra gli elementi */
 }
