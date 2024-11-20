@@ -1,0 +1,36 @@
+.heading{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-shadow: 0 0 4px rgb(196, 167, 209), 0 0 4px black;
+    background-color: darkorange;
+    /*text-align: center;*/
+}
+
+.subheading{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600px;
+    /*text-align: center;*/
+}
+
+.list .item{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 10px; /* Spaziatura uniforme tra gli elementi */
+}
+
+.container{
+    /*text-align: center;*/
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+p{
+    /*text-align: center;*/
+}
+
