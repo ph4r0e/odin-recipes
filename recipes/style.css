@@ -5,6 +5,7 @@
     text-shadow: 0 0 4px rgb(196, 167, 209), 0 0 4px black;
     background-color: darkorange;
     /*text-align: center;*/
+    
 }
 
 .subheading{
@@ -12,6 +13,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600px;
     /*text-align: center;*/
+    margin: 20px auto;
 }
 
 .list .item{
@@ -38,10 +40,14 @@
     width: 40%;
     border-radius: 8px;
 }
-p{
-    /*text-align: center;*/
-}
+
 .clearfix {
     clear: both;
+}
+
+.page-content {
+    max-width: 900px; /* Larghezza massima del contenuto */
+    margin: 100 auto; /* Centra tutto rispetto alla pagina */
+    padding: 20px; /* Aggiunge spazio interno ai bordi */
 }
 
