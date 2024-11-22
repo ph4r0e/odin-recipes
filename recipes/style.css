@@ -4,7 +4,7 @@
 }
 
 .heading{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
     text-shadow: 0 0 4px rgb(196, 167, 209), 0 0 4px black;
@@ -14,7 +14,7 @@
 }
 
 .subheading{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600px;
     /*text-align: center;*/
@@ -22,14 +22,14 @@
 }
 
 p{
-    font-size: 1vw;
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     margin-bottom: 10px; /* Spaziatura uniforme tra gli elementi */
 }
 
 .list .item{
-    font-size: 1vw;
+    font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     margin-bottom: 10px; /* Spaziatura uniforme tra gli elementi */
@@ -72,4 +72,15 @@ p{
         width: 95%;
     }
 }
+
+
+  
+ 
+  
+  /* Scala la dimensione del font per schermi più piccoli */
+  @media (max-width: 4000px) {
+    html {
+      font-size: 87.5%; /* 14px */
+    }
+  }
 
