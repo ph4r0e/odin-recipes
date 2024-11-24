@@ -77,6 +77,11 @@ p{
     padding: 20px; /* Aggiunge spazio interno ai bordi */
 }
 
+.box1,
+.box2{
+    padding: 10px;
+}
+
 .box1{
     width: 20%;
     background-color: lightcoral;
